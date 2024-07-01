@@ -1,0 +1,18 @@
+@font-face{
+    font-family: bungee;
+    src: url(../fuentes/Bungee/Bungee-Regular.ttf);
+}
+@font-face {
+    font-family: katibeh;
+    src: url(../fuentes/fuente2/Katibeh-Regular.ttf);
+}
+h3{
+    font-family: bungee, cursive;
+    font-size: 32px;
+    color: cadetblue;
+}
+p{
+    font-family: katibeh;
+    font-size: 30px;
+    color: black;
+}

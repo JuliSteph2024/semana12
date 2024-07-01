@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial;
+}
+.element{
+    margin: 60px;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    /* 1. transform: translateX(200px);*/
+    /* 2. transform: translateY(100px);*/
+    /* 3. transform: translate(200px,100px);*/
+    /* 4. transform: translateX(20px) translateY(50px);*/
+    /*
+    transform: rotate();
+     0-360 deg;
+     0-400 grad;
+     0-6.28319 rad;
+     0-1 turn;
+
+    */
+    transition: 4s;
+}
+.element:hover{
+    /*width: 400px;*/
+    background-color: azure;
+    transform: rotate(1turn);
+    /*transform:scaleX(1.5);*/ /*Esto quiere decir que multiplicas 200 por 1.5 */
+    transform: scale(1.5);
+    border-radius: 40px;
+}
+.element h3{
+    text-align: center;
+    padding: 5px;
+}
